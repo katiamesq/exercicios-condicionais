@@ -11,6 +11,10 @@ const jogada1 = 5;
 const jogada2 = 3;
 
 //seu código aqui
+if (jogada1 === % 0 &&  jogada2 === % 1 ) {
+    console.log ("par")
+    
+}
 
 ```
 

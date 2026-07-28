@@ -1,25 +1,27 @@
-const alturaEmCm = 205;
+const alturaEmCm = 185;
 
 //seu código aqui
 if (alturaEmCm < 180){
     console.log (REPROVADO);
 }
 
-if (alturaEmCm === 180 || alturaEmCm <= 185) {
+else if (alturaEmCm === 180 || alturaEmCm <= 185) {
         console.log ("LÍBERO")
     }
 
-    if (alturaEmCm === 186 || alturaEmCm <= 195) {
+else if (alturaEmCm === 186 || alturaEmCm <= 195) {
         console.log ("PONTEIRO")
     }
 
-    if (alturaEmCm === 196 || alturaEmCm <= 205) {
+   else if (alturaEmCm === 196 || alturaEmCm <= 205) {
         console.log ("OPOSTO")
     }
 
-    if (alturaEmCm => 205) {
+  else if (alturaEmCm => 205) {
         console.log ("CENTRAL")
     }
+
+    
 
 
 

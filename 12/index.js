@@ -1,4 +1,4 @@
-const diaDaSemana = 10;
+const diaDaSemana = 3;
 
 if (diaDaSemana === 1) {
     console.log ("Segunda-feira")

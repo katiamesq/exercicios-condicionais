@@ -1,18 +1,24 @@
 //tipo de pagamento (dinheiro, credito, debito, cheque).
-const tipoDePagamento = "credito";
+const tipoDePagamento = "credito"
 
 //valor da mercadoria (centavos)
 const valorDoProduto = 13000;
 
+let desconto = 0
+
 if (tipoDePagamento === "credito")  {
-    console.log ("5%")
+    desconto = 0.05;
 }
 else if (tipoDePagamento === "cheque") {
-    console.log ("3%")
+    desconto = 0.03
 }
-else { console.log ("10%")}
+else { desconto = 0.10}
 
-//valorFinal = valorDoProduto - (valorDoProduto \* desconto)
+
+const valorFinal = valorDoProduto - (valorDoProduto * desconto);
+
+console.log (`O valor a ser pago é de ${(valorFinal / 100).toFixed(2)}.`)
+
 
 
 
